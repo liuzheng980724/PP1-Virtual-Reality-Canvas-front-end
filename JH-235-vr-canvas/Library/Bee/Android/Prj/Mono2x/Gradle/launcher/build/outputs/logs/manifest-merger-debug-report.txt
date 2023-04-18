@@ -5,8 +5,8 @@ INJECTED from D:\Unity\JH-235-vr-canvas\JH-235-vr-canvas\Library\Bee\Android\Prj
 INJECTED from D:\Unity\JH-235-vr-canvas\JH-235-vr-canvas\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from D:\Unity\JH-235-vr-canvas\JH-235-vr-canvas\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 MERGED from [:unityLibrary] D:\Unity\JH-235-vr-canvas\JH-235-vr-canvas\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-106:12
-MERGED from [:PxrPlatform:] C:\Users\liuzh\.gradle\caches\transforms-2\files-2.1\1b709c546aa069b0b59ea8204b9eb3df\PxrPlatform\AndroidManifest.xml:2:1-10:12
-MERGED from [:pxr_api-release:] C:\Users\liuzh\.gradle\caches\transforms-2\files-2.1\06ed3b0ab9966ca6ea373c488828466e\pxr_api-release\AndroidManifest.xml:2:1-11:12
+MERGED from [:PxrPlatform:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\1b709c546aa069b0b59ea8204b9eb3df\PxrPlatform\AndroidManifest.xml:2:1-10:12
+MERGED from [:pxr_api-release:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\06ed3b0ab9966ca6ea373c488828466e\pxr_api-release\AndroidManifest.xml:2:1-11:12
 INJECTED from D:\Unity\JH-235-vr-canvas\JH-235-vr-canvas\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from D:\Unity\JH-235-vr-canvas\JH-235-vr-canvas\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from D:\Unity\JH-235-vr-canvas\JH-235-vr-canvas\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
@@ -44,8 +44,8 @@ application
 ADDED from D:\Unity\JH-235-vr-canvas\JH-235-vr-canvas\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
 MERGED from [:unityLibrary] D:\Unity\JH-235-vr-canvas\JH-235-vr-canvas\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:5-104:19
 MERGED from [:unityLibrary] D:\Unity\JH-235-vr-canvas\JH-235-vr-canvas\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:5-104:19
-MERGED from [:pxr_api-release:] C:\Users\liuzh\.gradle\caches\transforms-2\files-2.1\06ed3b0ab9966ca6ea373c488828466e\pxr_api-release\AndroidManifest.xml:9:5-20
-MERGED from [:pxr_api-release:] C:\Users\liuzh\.gradle\caches\transforms-2\files-2.1\06ed3b0ab9966ca6ea373c488828466e\pxr_api-release\AndroidManifest.xml:9:5-20
+MERGED from [:pxr_api-release:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\06ed3b0ab9966ca6ea373c488828466e\pxr_api-release\AndroidManifest.xml:9:5-20
+MERGED from [:pxr_api-release:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\06ed3b0ab9966ca6ea373c488828466e\pxr_api-release\AndroidManifest.xml:9:5-20
 	android:requestLegacyExternalStorage
 		ADDED from [:unityLibrary] D:\Unity\JH-235-vr-canvas\JH-235-vr-canvas\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:9-52
 	android:extractNativeLibs
@@ -60,10 +60,10 @@ INJECTED from D:\Unity\JH-235-vr-canvas\JH-235-vr-canvas\Library\Bee\Android\Prj
 INJECTED from D:\Unity\JH-235-vr-canvas\JH-235-vr-canvas\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 MERGED from [:unityLibrary] D:\Unity\JH-235-vr-canvas\JH-235-vr-canvas\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
 MERGED from [:unityLibrary] D:\Unity\JH-235-vr-canvas\JH-235-vr-canvas\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
-MERGED from [:PxrPlatform:] C:\Users\liuzh\.gradle\caches\transforms-2\files-2.1\1b709c546aa069b0b59ea8204b9eb3df\PxrPlatform\AndroidManifest.xml:6:5-8:41
-MERGED from [:PxrPlatform:] C:\Users\liuzh\.gradle\caches\transforms-2\files-2.1\1b709c546aa069b0b59ea8204b9eb3df\PxrPlatform\AndroidManifest.xml:6:5-8:41
-MERGED from [:pxr_api-release:] C:\Users\liuzh\.gradle\caches\transforms-2\files-2.1\06ed3b0ab9966ca6ea373c488828466e\pxr_api-release\AndroidManifest.xml:5:5-7:41
-MERGED from [:pxr_api-release:] C:\Users\liuzh\.gradle\caches\transforms-2\files-2.1\06ed3b0ab9966ca6ea373c488828466e\pxr_api-release\AndroidManifest.xml:5:5-7:41
+MERGED from [:PxrPlatform:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\1b709c546aa069b0b59ea8204b9eb3df\PxrPlatform\AndroidManifest.xml:6:5-8:41
+MERGED from [:PxrPlatform:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\1b709c546aa069b0b59ea8204b9eb3df\PxrPlatform\AndroidManifest.xml:6:5-8:41
+MERGED from [:pxr_api-release:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\06ed3b0ab9966ca6ea373c488828466e\pxr_api-release\AndroidManifest.xml:5:5-7:41
+MERGED from [:pxr_api-release:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\06ed3b0ab9966ca6ea373c488828466e\pxr_api-release\AndroidManifest.xml:5:5-7:41
 INJECTED from D:\Unity\JH-235-vr-canvas\JH-235-vr-canvas\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 INJECTED from D:\Unity\JH-235-vr-canvas\JH-235-vr-canvas\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 	android:targetSdkVersion

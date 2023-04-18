@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638154811417162935
+      ticks: 638154811420000000
     m_Hash: 859979527
   m_LockFileStatus:
     m_FilePath: D:/Unity/JH-235-vr-canvas/JH-235-vr-canvas/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638154811654820855
+      ticks: 638154811660000000
     m_Hash: 3245562345
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -24,7 +24,7 @@ m_LocalPackages:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638154806789880941
+      ticks: 638154806800000000
     m_Hash: 1119232256
   - m_FilePath: D:\Unity\JH-235-vr-canvas\SDKs\PICO Unity Live Preview Plugin (Experiment)
     m_PathExists: 1
@@ -38,7 +38,7 @@ m_LocalPackages:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638154807567678534
+      ticks: 638154807580000000
     m_Hash: 1359345907
   - m_FilePath: D:\Unity\JH-235-vr-canvas\SDKs\PICO Unity IntegrationSDK-214-20230302
     m_PathExists: 1
@@ -133,15 +133,17 @@ m_ResolvedPackages:
     - 2.0.0-preview.22
     - 2.0.0
     - 2.0.1
+    - 2.0.3
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
     - 2.0.1
+    - 2.0.3
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 2.0.1
+    verified: 2.0.3
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -323,9 +325,11 @@ m_ResolvedPackages:
     - 3.0.16
     - 3.0.17
     - 3.0.18
+    - 3.0.20
     compatible:
     - 3.0.18
-    verified: 3.0.18
+    - 3.0.20
+    verified: 3.0.20
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -396,9 +400,11 @@ m_ResolvedPackages:
     - 2.0.15
     - 2.0.16
     - 2.0.17
+    - 2.0.18
     compatible:
     - 2.0.17
-    verified: 2.0.17
+    - 2.0.18
+    verified: 2.0.18
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -623,6 +629,7 @@ m_ResolvedPackages:
     - 1.3.1
     - 1.3.2
     - 1.3.3
+    - 1.3.4
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -634,6 +641,7 @@ m_ResolvedPackages:
     - 1.3.1
     - 1.3.2
     - 1.3.3
+    - 1.3.4
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -1300,10 +1308,12 @@ m_ResolvedPackages:
     - 2.2.0
     - 2.3.0-pre.1
     - 2.3.0
+    - 2.3.1
     compatible:
     - 2.2.0
     - 2.3.0-pre.1
     - 2.3.0
+    - 2.3.1
     verified: 2.2.0
   dependencies:
   - name: com.unity.inputsystem
@@ -3945,9 +3955,11 @@ m_ResolvedPackages:
     - 1.2.0
     - 1.2.1
     - 1.2.2
+    - 1.2.3
     compatible:
     - 1.2.2
-    verified: 1.2.2
+    - 1.2.3
+    verified: 1.2.3
   dependencies:
   - name: com.unity.test-framework
     version: 1.0.16
