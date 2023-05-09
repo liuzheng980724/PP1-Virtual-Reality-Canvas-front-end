@@ -6,7 +6,7 @@ using System;
 
 public class getUsernameFromCanvas : MonoBehaviour
 {   
-    public Text textComponent;
+    public Text Username;
     public string JsonString;
     public string userAccesstoken;
     public string requireURL;
@@ -17,10 +17,10 @@ public class getUsernameFromCanvas : MonoBehaviour
     }
 
     IEnumerator Start() {
-        userAccesstoken = "x5f4kbQGzeME7eetYVsFIAp06AeZUhwV8F3u4IFFsvctbdySKFLaRjic17qEzVtW";
-        requireURL = "http://168.138.23.126/api/v1/users/self/profile?access_token=" + userAccesstoken;
-
-        //textComponent.text = userAccesstoken;
+        userAccesstoken = "9595~gNBaPQCzV32DkLkMzxGyCNzA0PjMVbElkcmtUbDi3i7NTaXnsjmu3ESl8abhGvLP";
+        requireURL = "https://rmit.instructure.com/api/v1/users/self/profile?access_token=" + userAccesstoken;
+        
+        //Username.text = userAccesstoken;
 
         using (WWW www = new WWW(requireURL)) {
             yield return www;
@@ -28,15 +28,10 @@ public class getUsernameFromCanvas : MonoBehaviour
                 Debug.Log(www.error);
             } else {
                 JsonString = www.text;
-
-                textComponent.text = JsonString;
               
                 Person data = JsonUtility.FromJson<Person>(JsonString);
-                textComponent.text = data.name;
+                Username.text = data.name;
             }
-
-            
-
         }
     }
 
