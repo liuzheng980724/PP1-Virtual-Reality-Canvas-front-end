@@ -117,6 +117,21 @@
 -define:PHYSICS2D_MODULE_PRESENT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/TriLib/TriLibCore/Plugins/Dependencies/ICSharpCode.SharpZipLib.dll"
+-r:"Assets/TriLib/TriLibCore/Plugins/Dependencies/IxMilia.ThreeMf.dll"
+-r:"Assets/TriLib/TriLibCore/Plugins/Dependencies/LibTessDotNet.dll"
+-r:"Assets/TriLib/TriLibCore/Plugins/Dependencies/StbImageSharp.dll"
+-r:"Assets/TriLib/TriLibCore/Plugins/TriLibCore.Dae.dll"
+-r:"Assets/TriLib/TriLibCore/Plugins/TriLibCore.dll"
+-r:"Assets/TriLib/TriLibCore/Plugins/TriLibCore.Fbx.dll"
+-r:"Assets/TriLib/TriLibCore/Plugins/TriLibCore.Gltf.dll"
+-r:"Assets/TriLib/TriLibCore/Plugins/TriLibCore.Gltf.Draco.dll"
+-r:"Assets/TriLib/TriLibCore/Plugins/TriLibCore.HDRLoader.dll"
+-r:"Assets/TriLib/TriLibCore/Plugins/TriLibCore.Obj.dll"
+-r:"Assets/TriLib/TriLibCore/Plugins/TriLibCore.Ply.dll"
+-r:"Assets/TriLib/TriLibCore/Plugins/TriLibCore.Stl.dll"
+-r:"Assets/TriLib/TriLibCore/Plugins/TriLibCore.Textures.dll"
+-r:"Assets/TriLib/TriLibCore/Plugins/TriLibCore.ThreeMf.dll"
 -r:"D:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
 -r:"D:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
 -r:"D:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"

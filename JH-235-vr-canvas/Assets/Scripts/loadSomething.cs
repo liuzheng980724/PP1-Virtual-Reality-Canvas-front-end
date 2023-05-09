@@ -7,7 +7,10 @@ using UnityEngine.Networking;
 using Newtonsoft.Json;
 using UnityEngine.SceneManagement;
 using System.IO;
-using System.IO.Compression;
+using TriLibCore;
+using TriLibCore.General;
+
+
 
 public class loadSomething : MonoBehaviour
 {
@@ -31,23 +34,6 @@ public class loadSomething : MonoBehaviour
     // Start is called before the first frame update
     IEnumerator Start()
     {
-        //Show button
-        /*
-        GameObject buttonObject = new GameObject("Button");
-        buttonObject.transform.SetParent(this.transform);
-
-        Button buttonComponent = buttonObject.AddComponent<Button>();
-        Text buttonText = buttonObject.AddComponent<Text>();
-        buttonText.text = "E70012 Sandbox";
-        buttonText.font = courseName.font;
-        buttonText.color = courseName.color;
-        buttonText.fontSize = courseName.fontSize;
-        buttonText.rectTransform.sizeDelta = new Vector2(150, 50);
-        buttonText.rectTransform.position = new Vector3(0, 10, 1);
-        buttonText.transform.localScale = new Vector3(1, 1, 1);
-        */
-
-
         List<File> filesList = new List<File>();
         userAccesstoken = "9595~gNBaPQCzV32DkLkMzxGyCNzA0PjMVbElkcmtUbDi3i7NTaXnsjmu3ESl8abhGvLP";
 
@@ -71,86 +57,14 @@ public class loadSomething : MonoBehaviour
 
                 foreach (File thisFile in filesList)
                 {
-
                     objNameT += thisFile.display_name + "\n";
 
                     //Load model
-                    /*
-                    string localPath = "Assets/Models/" + thisFile.filename;
-                    UnityWebRequest wwwObj = UnityWebRequest.Get(thisFile.url);
-
-                    DownloadHandlerFile downloadHandler = new DownloadHandlerFile(localPath);
-                    wwwObj.downloadHandler = downloadHandler;
-
-                    yield return wwwObj.SendWebRequest();
-
-                    if (wwwObj.result != UnityWebRequest.Result.Success)
-                    {
-                        Debug.Log(wwwObj.error);
-                    } else
-                    {
-                        Debug.Log("FBX file downloaded to " + localPath);
-
-
-                            AssetBundle bundle = AssetBundle.LoadFromFile(localPath);
-
-                            if (bundle == null)
-                            {
-                                Debug.Log("Failed to load AssetBundle!");
-                            }
-                            else
-                            {
-                                GameObject prefab = bundle.LoadAsset<GameObject>("");
-                                loadedObject = Instantiate(prefab);
-                            }
-
-                    }
-                    */
-                    ///*
-                    using (UnityWebRequest wwwObj = UnityWebRequest.Get(thisFile.url))
-                    {
-                        yield return wwwObj;
-
-                        if (wwwObj.error != null)
-                        {
-                            Debug.Log(wwwObj.error);
-                        } else
-                        {
-                            Debug.Log(thisFile.url);
-                            Debug.Log(thisFile.filename);
-
-                            AssetBundle bundle = AssetBundle.LoadFromMemory(wwwObj.downloadHandler.data);
-
-                            if (bundle == null) // check if bundle is null
-                            {
-                                Debug.Log("Failed to load AssetBundle!");
-                            } else
-                            {
-                                string[] assetNames = bundle.GetAllAssetNames();
-                                //Check null error
-                                Debug.Log("TEST");
-                                foreach (string assetName in assetNames)
-                                {
-                                    Debug.Log("TEST123");
-                                    Debug.Log(assetName);
-                                }
-
-                                if (assetNames.Length == 0)
-                                {
-                                    Debug.Log("Bundle is empty");
-                                }
-                                else
-                                {
-                                    GameObject prefab = bundle.LoadAsset<GameObject>("");
-                                    loadedObject = Instantiate(prefab);
-                                }
-                            }
-
-                        }
-
-                    }
-                //*/
+                    var assetLoaderOptions = AssetLoader.CreateDefaultLoaderOptions();
+                    var webRequest = AssetDownloader.CreateWebRequest(thisFile.url);
+                    AssetDownloader.LoadModelFromUri(webRequest, OnLoad, OnMaterialsLoad, OnProgress, OnError, null, assetLoaderOptions, null, null);
                 }
+
                 objectName.text = objNameT;
             }
         }
@@ -160,5 +74,37 @@ public class loadSomething : MonoBehaviour
     void Update()
     {
 
+    }
+
+    private void OnProgress(AssetLoaderContext assetLoaderContext, float progress)
+    {
+
+    }
+
+    // This event is called when there is any critical error loading your model.
+    // You can use this to show a message to the user.
+    private void OnError(IContextualizedError contextualizedError)
+    {
+
+    }
+
+    // This event is called when all model GameObjects and Meshes have been loaded.
+    // There may still Materials and Textures processing at this stage.
+    private void OnLoad(AssetLoaderContext assetLoaderContext)
+    {
+        // The root loaded GameObject is assigned to the "assetLoaderContext.RootGameObject" field.
+        // If you want to make sure the GameObject will be visible only when all Materials and Textures have been loaded, you can disable it at this step.
+        var myLoadedGameObject = assetLoaderContext.RootGameObject;
+        myLoadedGameObject.SetActive(false);
+    }
+
+    // This event is called after OnLoad when all Materials and Textures have been loaded.
+    // This event is also called after a critical loading error, so you can clean up any resource you want to.
+    private void OnMaterialsLoad(AssetLoaderContext assetLoaderContext)
+    {
+        // The root loaded GameObject is assigned to the "assetLoaderContext.RootGameObject" field.
+        // You can make the GameObject visible again at this step if you prefer to.
+        var myLoadedGameObject = assetLoaderContext.RootGameObject;
+        myLoadedGameObject.SetActive(true);
     }
 }
