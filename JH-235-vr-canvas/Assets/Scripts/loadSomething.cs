@@ -34,14 +34,19 @@ public class loadSomething : MonoBehaviour
     // Start is called before the first frame update
     IEnumerator Start()
     {
+        string needShowFolderName = PlayerPrefs.GetString("thisFolderName");
+        string needShowFolderUrl = PlayerPrefs.GetString("thisFolderUrl");
+
         List<File> filesList = new List<File>();
         userAccesstoken = "9595~gNBaPQCzV32DkLkMzxGyCNzA0PjMVbElkcmtUbDi3i7NTaXnsjmu3ESl8abhGvLP";
 
         requireCourseURL = "https://rmit.instructure.com/api/v1/courses/70814/files?access_token=" + userAccesstoken;
 
-        objectName.text = "Default List";
+        //objectName.text = "Default List";
+        objectName.text = "Show files from " + needShowFolderName;
 
-        using (UnityWebRequest www = UnityWebRequest.Get(requireCourseURL))
+        //using (UnityWebRequest www = UnityWebRequest.Get(requireCourseURL))   //abandoned --ZHENG LIU
+        using (UnityWebRequest www = UnityWebRequest.Get(needShowFolderUrl + "?access_token=" + userAccesstoken))
         {
             yield return www.SendWebRequest();
 
@@ -65,7 +70,14 @@ public class loadSomething : MonoBehaviour
                     AssetDownloader.LoadModelFromUri(webRequest, OnLoad, OnMaterialsLoad, OnProgress, OnError, null, assetLoaderOptions, null, null);
                 }
 
-                objectName.text = objNameT;
+                if(string.IsNullOrWhiteSpace(objNameT))
+                {
+                    objectName.text = "No files in this folder";
+                } else
+                {
+                    objectName.text = objNameT;
+                }
+
             }
         }
     }

@@ -9,4 +9,9 @@ public class JumpToDashboard : MonoBehaviour
     {
         SceneManager.LoadScene("Dashboard");
     }
+
+    public void gotoFolders()
+    {
+        SceneManager.LoadScene("folderslist");
+    }
 }

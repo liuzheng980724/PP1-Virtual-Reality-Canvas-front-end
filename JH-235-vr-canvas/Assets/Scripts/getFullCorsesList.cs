@@ -30,7 +30,7 @@ public class getFullCorsesList : MonoBehaviour
     // Start is called before the first frame update
     IEnumerator Start()
     {
-        //Show button
+        //Show button TO SANDBOX
         
         GameObject buttonObject = new GameObject("Button");
         buttonObject.transform.SetParent(this.transform);
@@ -85,8 +85,30 @@ public class getFullCorsesList : MonoBehaviour
                 Debug.Log(JsonString);
                 courseList = JsonConvert.DeserializeObject<List<Course>>(JsonString);
 
+                int posX, posY, posZ;
+                posX = -10;
+                posY = 15;
+                posZ = 15;
+
                 foreach (Course thisCourse in courseList)
                 {
+                    /* Auto Add button event (NOT IN USE!!) --ZHENG LIU
+                    GameObject buttonObject = new GameObject("Button_" + thisFolder.id);
+                    buttonObject.transform.SetParent(this.transform);
+
+                    Button buttonComponent = buttonObject.AddComponent<Button>();
+                    Text buttonText = buttonObject.AddComponent<Text>();
+                    buttonText.text = thisCourse.name;
+                    buttonText.font = courseName.font;
+                    buttonText.color = Color.white;
+                    buttonText.fontSize = 14;
+                    buttonText.rectTransform.sizeDelta = new Vector2(150, 20);
+                    buttonText.rectTransform.position = new Vector3(posX, posY, posZ);
+                    buttonText.transform.localScale = new Vector3(1, 1, 1);
+                    posY = posY - 2;    //DO NOT TOUCH. 1:10    --ZHENG LIU
+
+                    //buttonComponent.onClick.AddListener(() => Loadfolder(thisFolder.folders_url));
+                    */
                     courseNameT += thisCourse.name + "\n";
                 }
                 courseName.text = courseNameT;
@@ -96,7 +118,8 @@ public class getFullCorsesList : MonoBehaviour
 
     void LoadClassroom()
     {
-        SceneManager.LoadScene("Chemistry");
+        //SceneManager.LoadScene("Chemistry");
+        SceneManager.LoadScene("folderslist");
     }
 
     // Update is called once per frame
