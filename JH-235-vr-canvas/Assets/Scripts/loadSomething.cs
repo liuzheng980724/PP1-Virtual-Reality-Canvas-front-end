@@ -20,6 +20,7 @@ public class loadSomething : MonoBehaviour
     public string userAccesstoken;
     public string requireCourseURL;
     public string objNameT;
+    float posX = 0; //For model load only.
 
     [Serializable]
     public class File
@@ -40,9 +41,9 @@ public class loadSomething : MonoBehaviour
         List<File> filesList = new List<File>();
         userAccesstoken = "9595~gNBaPQCzV32DkLkMzxGyCNzA0PjMVbElkcmtUbDi3i7NTaXnsjmu3ESl8abhGvLP";
 
-        requireCourseURL = "https://rmit.instructure.com/api/v1/courses/70814/files?access_token=" + userAccesstoken;
+        //requireCourseURL = "https://rmit.instructure.com/api/v1/courses/70814/files?access_token=" + userAccesstoken;   //abandoned --ZHENG LIU
 
-        //objectName.text = "Default List";
+        //objectName.text = "Default List"; //abandoned --ZHENG LIU
         objectName.text = "Show files from " + needShowFolderName;
 
         //using (UnityWebRequest www = UnityWebRequest.Get(requireCourseURL))   //abandoned --ZHENG LIU
@@ -106,7 +107,10 @@ public class loadSomething : MonoBehaviour
     {
         // The root loaded GameObject is assigned to the "assetLoaderContext.RootGameObject" field.
         // If you want to make sure the GameObject will be visible only when all Materials and Textures have been loaded, you can disable it at this step.
+        posX++; //Add set pusiton + 1 -- ZHENG LIU
         var myLoadedGameObject = assetLoaderContext.RootGameObject;
+        myLoadedGameObject.transform.localScale = new Vector3(0.05f, 0.05f, 0.05f);    //Make it small. DO NOT CHANGE --ZHENG LIU
+        myLoadedGameObject.transform.position = new Vector3(posX, 0.5f, 0);   //Put model at correct position. DO NOT CHANGE --ZHENG LIU
         myLoadedGameObject.SetActive(false);
     }
 
@@ -118,5 +122,6 @@ public class loadSomething : MonoBehaviour
         // You can make the GameObject visible again at this step if you prefer to.
         var myLoadedGameObject = assetLoaderContext.RootGameObject;
         myLoadedGameObject.SetActive(true);
+
     }
 }
