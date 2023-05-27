@@ -1,0 +1,19 @@
+com.rmit.JH235vrcanvas
+anim fade_in
+anim fade_out
+id unitySurfaceView
+mipmap app_icon
+mipmap app_icon_round
+mipmap ic_launcher_background
+mipmap ic_launcher_foreground
+string app_name
+string game_view_content_description
+string notify_content
+string notify_key
+string notify_title
+string wvr_vr_mode_component
+style Animation_Activity_fade_in_out
+style BaseUnityTheme
+style Theme_WaveVR_Black
+style UnityThemeSelector
+style UnityThemeSelector_Translucent

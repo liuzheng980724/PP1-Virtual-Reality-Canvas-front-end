@@ -2,5 +2,6 @@ UnityEngine.Networking
 UnityEngine.Network
 UnityEngine.WWW
 UnityEngine.Networking.UnityWebRequest
-UnityEngine.Input::GetTouch
+UnityEngine.Application::get_internetReachability
+UnityEngine.Input::get_touches
 UnityEngine.Input::get_touchCount

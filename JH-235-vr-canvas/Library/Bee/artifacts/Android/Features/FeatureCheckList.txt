@@ -21,4 +21,3 @@ UnityEngine.Input::GetTouch
 UnityEngine.Input::get_touchCount
 UnityEngine.Input::get_multiTouchEnabled
 UnityEngine.Networking.NetworkTransport::SetMulticastLock
-UnityEngine.Android.DiagnosticsReporting::CallReportFullyDrawn

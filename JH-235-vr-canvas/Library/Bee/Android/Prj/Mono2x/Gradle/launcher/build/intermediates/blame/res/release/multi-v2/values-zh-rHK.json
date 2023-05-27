@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Unity\\ExampleTrainingApp\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-zh-rHK\\values-zh-rHK.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ZHENGLIU\\.gradle\\caches\\transforms-2\\files-2.1\\a45510e46dfaa307f62e99f56789529a\\wvr_permission_client\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,115,179",
+                        "endColumns": "59,63,47",
+                        "endOffsets": "110,174,222"
+                    }
+                }
+            ]
+        }
+    ]
+}

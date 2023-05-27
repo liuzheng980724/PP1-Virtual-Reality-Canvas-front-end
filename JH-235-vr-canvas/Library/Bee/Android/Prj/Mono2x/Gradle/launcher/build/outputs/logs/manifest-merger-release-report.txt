@@ -1,0 +1,336 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+MERGED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:3:1-107:12
+MERGED from [:wvr_ime_client:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\0a7384346e1344c2a5b06f55816da512\wvr_ime_client\AndroidManifest.xml:2:1-11:12
+MERGED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:2:1-35:12
+MERGED from [:UnityAdsAndroidPlugin:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\667ab3fdbf272abafc4d987f08307b17\UnityAdsAndroidPlugin\AndroidManifest.xml:2:1-11:12
+MERGED from [:wvr_unity_plugin_2017:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\8ea8e1b3e61da5cedc62eeffc1de7e94\wvr_unity_plugin_2017\AndroidManifest.xml:2:1-14:12
+MERGED from [:wvr.common.utils:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\e39986952672ca5294da8c705bb1011c\wvr.common.utils\AndroidManifest.xml:2:1-11:12
+MERGED from [:PxrPlatform:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\1b709c546aa069b0b59ea8204b9eb3df\PxrPlatform\AndroidManifest.xml:2:1-10:12
+MERGED from [:wvr_client:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\4fca888554af9320c8e3373c1eb7a91f\wvr_client\AndroidManifest.xml:2:1-17:12
+MERGED from [:pxr_api-release:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\06ed3b0ab9966ca6ea373c488828466e\pxr_api-release\AndroidManifest.xml:2:1-11:12
+MERGED from [:vr.client.abi:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\5f837b1967d37cc3c56d0cf5669f8a1c\vr.client.abi\AndroidManifest.xml:2:1-11:12
+MERGED from [:wvr_permission_client:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\a45510e46dfaa307f62e99f56789529a\wvr_permission_client\AndroidManifest.xml:2:1-11:12
+INJECTED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+	package
+		ADDED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:70-102
+		INJECTED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+		INJECTED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:103-149
+	android:versionCode
+		INJECTED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+		INJECTED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:2:150-190
+supports-screens
+ADDED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+	android:largeScreens
+		ADDED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+	android:smallScreens
+		ADDED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+	android:normalScreens
+		ADDED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+	android:xlargeScreens
+		ADDED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+	android:anyDensity
+		ADDED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+application
+ADDED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+MERGED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:5-105:19
+MERGED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:5-105:19
+MERGED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:12:5-33:19
+MERGED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:12:5-33:19
+MERGED from [:wvr_client:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\4fca888554af9320c8e3373c1eb7a91f\wvr_client\AndroidManifest.xml:12:5-15:19
+MERGED from [:wvr_client:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\4fca888554af9320c8e3373c1eb7a91f\wvr_client\AndroidManifest.xml:12:5-15:19
+MERGED from [:pxr_api-release:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\06ed3b0ab9966ca6ea373c488828466e\pxr_api-release\AndroidManifest.xml:9:5-20
+MERGED from [:pxr_api-release:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\06ed3b0ab9966ca6ea373c488828466e\pxr_api-release\AndroidManifest.xml:9:5-20
+	android:requestLegacyExternalStorage
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:9-52
+	android:extractNativeLibs
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:9-41
+	android:label
+		ADDED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+	android:icon
+		ADDED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+	android:theme
+		ADDED from [:wvr_client:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\4fca888554af9320c8e3373c1eb7a91f\wvr_client\AndroidManifest.xml:13:9-50
+	tools:replace
+		ADDED from [:wvr_client:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\4fca888554af9320c8e3373c1eb7a91f\wvr_client\AndroidManifest.xml:14:9-38
+uses-sdk
+INJECTED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+INJECTED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+MERGED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:9:5-11:41
+MERGED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:9:5-11:41
+MERGED from [:wvr_ime_client:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\0a7384346e1344c2a5b06f55816da512\wvr_ime_client\AndroidManifest.xml:7:5-9:41
+MERGED from [:wvr_ime_client:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\0a7384346e1344c2a5b06f55816da512\wvr_ime_client\AndroidManifest.xml:7:5-9:41
+MERGED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:5:5-7:41
+MERGED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:5:5-7:41
+MERGED from [:UnityAdsAndroidPlugin:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\667ab3fdbf272abafc4d987f08307b17\UnityAdsAndroidPlugin\AndroidManifest.xml:7:5-9:41
+MERGED from [:UnityAdsAndroidPlugin:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\667ab3fdbf272abafc4d987f08307b17\UnityAdsAndroidPlugin\AndroidManifest.xml:7:5-9:41
+MERGED from [:wvr_unity_plugin_2017:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\8ea8e1b3e61da5cedc62eeffc1de7e94\wvr_unity_plugin_2017\AndroidManifest.xml:7:5-9:41
+MERGED from [:wvr_unity_plugin_2017:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\8ea8e1b3e61da5cedc62eeffc1de7e94\wvr_unity_plugin_2017\AndroidManifest.xml:7:5-9:41
+MERGED from [:wvr.common.utils:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\e39986952672ca5294da8c705bb1011c\wvr.common.utils\AndroidManifest.xml:7:5-9:41
+MERGED from [:wvr.common.utils:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\e39986952672ca5294da8c705bb1011c\wvr.common.utils\AndroidManifest.xml:7:5-9:41
+MERGED from [:PxrPlatform:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\1b709c546aa069b0b59ea8204b9eb3df\PxrPlatform\AndroidManifest.xml:6:5-8:41
+MERGED from [:PxrPlatform:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\1b709c546aa069b0b59ea8204b9eb3df\PxrPlatform\AndroidManifest.xml:6:5-8:41
+MERGED from [:wvr_client:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\4fca888554af9320c8e3373c1eb7a91f\wvr_client\AndroidManifest.xml:8:5-10:41
+MERGED from [:wvr_client:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\4fca888554af9320c8e3373c1eb7a91f\wvr_client\AndroidManifest.xml:8:5-10:41
+MERGED from [:pxr_api-release:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\06ed3b0ab9966ca6ea373c488828466e\pxr_api-release\AndroidManifest.xml:5:5-7:41
+MERGED from [:pxr_api-release:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\06ed3b0ab9966ca6ea373c488828466e\pxr_api-release\AndroidManifest.xml:5:5-7:41
+MERGED from [:vr.client.abi:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\5f837b1967d37cc3c56d0cf5669f8a1c\vr.client.abi\AndroidManifest.xml:7:5-9:41
+MERGED from [:vr.client.abi:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\5f837b1967d37cc3c56d0cf5669f8a1c\vr.client.abi\AndroidManifest.xml:7:5-9:41
+MERGED from [:wvr_permission_client:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\a45510e46dfaa307f62e99f56789529a\wvr_permission_client\AndroidManifest.xml:7:5-9:41
+MERGED from [:wvr_permission_client:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\a45510e46dfaa307f62e99f56789529a\wvr_permission_client\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+INJECTED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		ADDED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+		INJECTED from D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+uses-feature#0x00030000
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-54
+	android:glEsVersion
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:19-51
+uses-feature#android.hardware.vulkan.version
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:9-55
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:22-78
+uses-feature#android.hardware.touchscreen
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:9-52
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:5-25:36
+	android:required
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:9-63
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:5-28:36
+	android:required
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:9-33
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:9-72
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:5-73
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:22-70
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:5-80
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:22-77
+uses-permission#android.permission.INTERNET
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:5-67
+MERGED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:10:5-67
+MERGED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:5-79
+MERGED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:9:5-79
+MERGED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:22-76
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:9-58:20
+	android:screenOrientation
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:13-50
+	android:launchMode
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:13-44
+	android:hardwareAccelerated
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:13-48
+	android:resizeableActivity
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:13-47
+	android:configChanges
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:13-194
+	android:theme
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:13-54
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:13-50:29
+action#android.intent.action.MAIN
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:17-69
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:25-66
+category#android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:17-77
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:27-74
+meta-data#unityplayer.UnityActivity
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:13-54:40
+	android:value
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:17-37
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:17-57
+meta-data#android.notch_support
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-57:40
+	android:value
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:17-37
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:17-53
+meta-data#unity.splash-mode
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:9-62:33
+	android:value
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:13-30
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:13-45
+meta-data#unity.splash-enable
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:9-65:36
+	android:value
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:13-33
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-47
+meta-data#unity.launch-fullscreen
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:9-68:36
+	android:value
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:13-33
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:13-51
+meta-data#unity.allow-resizable-window
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:9-71:37
+	android:value
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:71:13-34
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:13-56
+meta-data#notch.config
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:72:9-74:50
+	android:value
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:74:13-47
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:73:13-40
+meta-data#pvr.app.type
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:75:9-77:34
+	android:value
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:77:13-31
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:76:13-40
+meta-data#pvr.sdk.version
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:78:9-80:51
+	android:value
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:80:13-48
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:79:13-43
+meta-data#enable_cpt
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:81:9-83:33
+	android:value
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:83:13-30
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:82:13-38
+meta-data#enable_entitlementcheck
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:84:9-86:33
+	android:value
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:86:13-30
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:85:13-51
+meta-data#handtracking
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:87:9-89:33
+	android:value
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:89:13-30
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:88:13-40
+meta-data#rendering_mode
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:90:9-92:33
+	android:value
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:92:13-30
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:91:13-42
+meta-data#display_rate
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:93:9-95:33
+	android:value
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:95:13-30
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:94:13-40
+meta-data#color_Space
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:96:9-98:33
+	android:value
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:98:13-30
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:97:13-39
+meta-data#MRCsupport
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:99:9-101:33
+	android:value
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:101:13-30
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:100:13-38
+meta-data#pvr.LateLatchingDebug
+ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:102:9-104:33
+	android:value
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:104:13-30
+	android:name
+		ADDED from [:unityLibrary] D:\Unity\ExampleTrainingApp\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:103:13-49
+activity#com.unity3d.services.ads.adunit.AdUnitActivity
+ADDED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:13:9-17:74
+	android:hardwareAccelerated
+		ADDED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:16:13-47
+	android:configChanges
+		ADDED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:15:13-170
+	android:theme
+		ADDED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:17:13-71
+	android:name
+		ADDED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:14:13-74
+activity#com.unity3d.services.ads.adunit.AdUnitTransparentActivity
+ADDED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:18:9-22:86
+	android:hardwareAccelerated
+		ADDED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:21:13-47
+	android:configChanges
+		ADDED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:20:13-170
+	android:theme
+		ADDED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:22:13-83
+	android:name
+		ADDED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:19:13-85
+activity#com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity
+ADDED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:23:9-27:86
+	android:hardwareAccelerated
+		ADDED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:26:13-48
+	android:configChanges
+		ADDED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:25:13-170
+	android:theme
+		ADDED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:27:13-83
+	android:name
+		ADDED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:24:13-93
+activity#com.unity3d.services.ads.adunit.AdUnitSoftwareActivity
+ADDED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:28:9-32:74
+	android:hardwareAccelerated
+		ADDED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:31:13-48
+	android:configChanges
+		ADDED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:30:13-170
+	android:theme
+		ADDED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:32:13-71
+	android:name
+		ADDED from [:UnityAds:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:29:13-82
+uses-permission#vive.wave.vr.oem.data.OEMDataRead
+ADDED from [:wvr_unity_plugin_2017:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\8ea8e1b3e61da5cedc62eeffc1de7e94\wvr_unity_plugin_2017\AndroidManifest.xml:11:5-73
+	android:name
+		ADDED from [:wvr_unity_plugin_2017:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\8ea8e1b3e61da5cedc62eeffc1de7e94\wvr_unity_plugin_2017\AndroidManifest.xml:11:22-70
+uses-permission#vive.wave.vr.oem.data.OEMDataWrite
+ADDED from [:wvr_unity_plugin_2017:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\8ea8e1b3e61da5cedc62eeffc1de7e94\wvr_unity_plugin_2017\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from [:wvr_unity_plugin_2017:] C:\Users\ZHENGLIU\.gradle\caches\transforms-2\files-2.1\8ea8e1b3e61da5cedc62eeffc1de7e94\wvr_unity_plugin_2017\AndroidManifest.xml:12:22-71

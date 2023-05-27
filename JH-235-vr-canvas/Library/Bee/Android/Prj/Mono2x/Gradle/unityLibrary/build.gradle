@@ -3,13 +3,21 @@ apply plugin: 'com.android.library'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation(name: 'wvr_ime_client', ext:'aar')
+    implementation(name: 'UnityAds', ext:'aar')
+    implementation(name: 'UnityAdsAndroidPlugin', ext:'aar')
+    implementation(name: 'wvr_unity_plugin_2017', ext:'aar')
+    implementation(name: 'wvr.common.utils', ext:'aar')
     implementation(name: 'PxrPlatform', ext:'aar')
+    implementation(name: 'wvr_client', ext:'aar')
     implementation(name: 'pxr_api-release', ext:'aar')
+    implementation(name: 'vr.client.abi', ext:'aar')
+    implementation(name: 'wvr_permission_client', ext:'aar')
 
 }
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 29
     buildToolsVersion '30.0.2'
 
     compileOptions {
@@ -19,12 +27,12 @@ android {
 
     defaultConfig {
         minSdkVersion 29
-        targetSdkVersion 30
+        targetSdkVersion 29
         ndk {
             abiFilters 'armeabi-v7a'
         }
         versionCode 1
-        versionName '0.0.1'
+        versionName '1.0.1'
         consumerProguardFiles 'proguard-unity.txt'
     }
 

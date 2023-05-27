@@ -1,0 +1,88 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Unity\\ExampleTrainingApp\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ZHENGLIU\\.gradle\\caches\\transforms-2\\files-2.1\\4fca888554af9320c8e3373c1eb7a91f\\wvr_client\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1",
+                        "startColumns": "-1,-1,-1",
+                        "startOffsets": "-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "8,9,27",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "447,582,1644",
+                        "endLines": "8,24,35",
+                        "endColumns": "134,8,8",
+                        "endOffsets": "577,1539,2185"
+                    }
+                },
+                {
+                    "source": "D:\\Unity\\ExampleTrainingApp\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values\\values.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "45",
+                        "endOffsets": "96"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ZHENGLIU\\.gradle\\caches\\transforms-2\\files-2.1\\a45510e46dfaa307f62e99f56789529a\\wvr_permission_client\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1",
+                        "startColumns": "-1,-1,-1",
+                        "startOffsets": "-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "5,6,7",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "223,319,383",
+                        "endColumns": "95,63,63",
+                        "endOffsets": "314,378,442"
+                    }
+                },
+                {
+                    "source": "D:\\Unity\\ExampleTrainingApp\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,-1",
+                        "startColumns": "2,-1",
+                        "startOffsets": "55,-1",
+                        "endColumns": "51,-1",
+                        "endOffsets": "104,-1"
+                    },
+                    "to": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "101,155",
+                        "endColumns": "53,67",
+                        "endOffsets": "150,218"
+                    }
+                },
+                {
+                    "source": "D:\\Unity\\ExampleTrainingApp\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1",
+                        "startColumns": "-1,-1,-1",
+                        "startOffsets": "-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "25,36,39",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1544,2190,2328",
+                        "endLines": "26,38,42",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "1639,2323,2550"
+                    }
+                }
+            ]
+        }
+    ]
+}

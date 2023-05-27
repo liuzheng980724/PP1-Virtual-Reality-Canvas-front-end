@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a87fe5385e716f7438f05a446492b256
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _T_PICO_Hand_AlbedoTransparency: {fileID: 2800000, guid: c778733a930fa1f42987db58f0820903,
+      type: 3}
+  - _T_PICO_Hand_Normal: {fileID: 2800000, guid: c6b2114490a7f0043a387d9453d8b496,
+      type: 3}
+  - _T_PICO_Hand_MetallicSmoothness: {fileID: 2800000, guid: 772c619c1d8e6474eb780e73ee5d73aa,
+      type: 3}
+  - _T_PICO_Hand_AO: {fileID: 2800000, guid: db01d532ab0b16846a4bb16a99c48f4a, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

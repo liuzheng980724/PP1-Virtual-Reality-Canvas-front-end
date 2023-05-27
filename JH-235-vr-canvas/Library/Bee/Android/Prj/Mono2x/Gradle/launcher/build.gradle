@@ -5,7 +5,7 @@ dependencies {
     }
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 29
     buildToolsVersion '30.0.2'
 
     compileOptions {
@@ -15,13 +15,13 @@ android {
 
     defaultConfig {
         minSdkVersion 29
-        targetSdkVersion 30
-        applicationId 'com.RMIT.JH235vrcanvas'
+        targetSdkVersion 29
+        applicationId 'com.rmit.JH235vrcanvas'
         ndk {
             abiFilters 'armeabi-v7a'
         }
         versionCode 1
-        versionName '0.0.1'
+        versionName '1.0.1'
     }
 
     aaptOptions {

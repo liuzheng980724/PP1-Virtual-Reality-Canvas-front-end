@@ -1,0 +1,124 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    artifactId: "wvr_ime_client"
+  }
+  digests {
+    sha256: "\027Ft\301\001w|y\353>\312\320\277+\342\243w\261\262n\307o\234\345G\275\t;VK\346\312"
+  }
+}
+library {
+  maven_library {
+    artifactId: "UnityAds"
+  }
+  digests {
+    sha256: "\n\311sV\2426n\253\331\204+\274\021S\342\n\"\271H\344\236\336\033*8>\220\323T0\036\366"
+  }
+}
+library {
+  maven_library {
+    artifactId: "UnityAdsAndroidPlugin"
+  }
+  digests {
+    sha256: "i\363\366\217\371\355R\t\aX9V\333v\326E\242\005\352\252e\335\374\306yl>8I\250a\335"
+  }
+}
+library {
+  maven_library {
+    artifactId: "wvr_unity_plugin_2017"
+  }
+  digests {
+    sha256: "A\307\375\257\017A8<\304\321G\303I\342w\261\267X\0062\243\265\303\3523\320\016@H\303\201\005"
+  }
+}
+library {
+  maven_library {
+    artifactId: "wvr.common.utils"
+  }
+  digests {
+    sha256: "\302A\201x\376\273\370\'\233\356\372V}ud\022[)\357\327\"\300\347j\030\222oo]\315\"\211"
+  }
+}
+library {
+  maven_library {
+    artifactId: "vr.client.abi"
+  }
+  digests {
+    sha256: "\332\t\217\300\032\200\360\274\377\036\231\250m\035\322\353\371\256U\320{\253|\267\224\003\3161l\215}\263"
+  }
+}
+library {
+  maven_library {
+    artifactId: "PxrPlatform"
+  }
+  digests {
+    sha256: "\204F\317\315\272\211E\a\352I\336|\323<H`\237`\330\204\334\203\273\021HV\265y\357\216\357T"
+  }
+}
+library {
+  maven_library {
+    artifactId: "wvr_client"
+  }
+  digests {
+    sha256: "\275\206\364O\244x\375\370\000A$\243d\006j\312Icg\204g\231ys\037;+?\\\027\376\253"
+  }
+}
+library {
+  maven_library {
+    artifactId: "pxr_api-release"
+  }
+  digests {
+    sha256: "\205G\346\330\251id\274\317\224e`\340-\267\340|#\3424\330.S\250\204a}\f\234\270e\266"
+  }
+}
+library {
+  maven_library {
+    artifactId: "wvr_permission_client"
+  }
+  digests {
+    sha256: "\301\032\261\023}ZZ\312o\220\233\2750\311\262\371p\310\312\300T\352\3004\362RV\f-\304@\023"
+  }
+}
+library {
+  digests {
+    sha256: "U\374/\373\027\227\356\340\232\025\321\224\237\n9z.\256\271\266\323\177y\276-\250:X\337\a\000+"
+  }
+}
+library_dependencies {
+}
+library_dependencies {
+  library_index: 1
+}
+library_dependencies {
+  library_index: 2
+}
+library_dependencies {
+  library_index: 3
+}
+library_dependencies {
+  library_index: 4
+}
+library_dependencies {
+  library_index: 5
+}
+library_dependencies {
+  library_index: 6
+}
+library_dependencies {
+  library_index: 7
+}
+library_dependencies {
+  library_index: 8
+}
+library_dependencies {
+  library_index: 9
+}
+library_dependencies {
+  library_index: 10
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 10
+}

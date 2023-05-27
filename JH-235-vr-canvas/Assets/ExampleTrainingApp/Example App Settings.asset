@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda9a8d79e8eefb4db73a95e5e592729, type: 3}
+  m_Name: Example App Settings
+  m_EditorClassIdentifier: 
+  productionAppIDs:
+  - c4cd06a8-a2a2-436a-9fbc-60119c6cf7d7
+  - 
+  - 
+  schemeID: example-fire-training
+  task1ID: read-expiry-date
+  task2ID: remove-safety-pin
+  task3ID: test-extinguisher
+  task4ID: put-out-fire
+  task5ID: multichoice-question
+  extinguisherExpiryDate: 2024
+  timeToPutOutFire: 2.5
+  endOfTaskDelay: 2.5
+  editorPairingCode: 30031708

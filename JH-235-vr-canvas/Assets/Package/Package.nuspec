@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>SnobalCloudSDK</id>
+    <version>1.0.6</version>
+    <authors>Kingsley Stephens, Nigel Morgan</authors>
+    <description>A collection of Unity scripts that exhibit various implementations of the Snobal Cloud library</description>
+    <releaseNotes> Removed device dependency </releaseNotes>
+    <copyright>Copyright 2021</copyright>
+    <tags>Unity Snolib</tags>
+    <dependencies>
+      <dependency id="SnolibNET" version="1.0.*" />
+      <dependency id="EnumFsmNET" version="0.1.*" />
+      <dependency id="UpdateSystemNET" version="0.0.*" />
+      <dependency id="FileRetrieverAndroid" version="0.0.*" />
+    </dependencies>	
+  </metadata>
+  <files>
+    <file src="ContentFiles\**" target="tools" />    
+  </files> 
+</package>
