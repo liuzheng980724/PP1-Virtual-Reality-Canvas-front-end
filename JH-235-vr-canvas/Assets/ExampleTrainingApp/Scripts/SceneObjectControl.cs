@@ -41,6 +41,7 @@ public class SceneObjectControl : MonoBehaviour
         table.Setup();
         fireExtinguisher.Setup();
         bin.Setup();
+        canvasLoginForm.Setup();
 
         table.ShowInstantly();
         testSprayPercent.HideInstantly();
@@ -50,7 +51,8 @@ public class SceneObjectControl : MonoBehaviour
         sceneTaskHelper3.Setup();
         sceneTaskHelper4.Setup();
         sceneTaskHelper5.Setup();
-        canvasLoginForm.HideInstantly();    //Hide Login Form before Login Snobal. --ZHENG LIU
+        canvasLoginForm.Hide();    //Hide Login Form before Login Snobal. --ZHENG LIU
+        //canvasLoginForm.DisplayPercent(0.0f);
 
     }
 

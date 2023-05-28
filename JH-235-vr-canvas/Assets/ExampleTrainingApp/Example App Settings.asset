@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Example App Settings
   m_EditorClassIdentifier: 
   productionAppIDs:
+  - 9eeeae9c-102a-4d1a-a9e5-7ea86173dc2f
   - c4cd06a8-a2a2-436a-9fbc-60119c6cf7d7
-  - 
   - 
   schemeID: example-fire-training
   task1ID: read-expiry-date

@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/folderslist.unity
     guid: 6e947fdae564b694e9273b61dfe404e5
+  - enabled: 1
+    path: Assets/Scenes/Assignment.unity
+    guid: 1a7c733b3f27a3b4cad7f9b0ca760f36
   m_configObjects:
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: d1b922cbff4b73a41b963dedae71b725,
       type: 2}

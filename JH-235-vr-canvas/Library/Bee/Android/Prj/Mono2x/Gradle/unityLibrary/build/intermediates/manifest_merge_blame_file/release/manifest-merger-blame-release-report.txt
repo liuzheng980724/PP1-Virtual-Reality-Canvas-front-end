@@ -4,7 +4,7 @@
 4    xmlns:tools="http://schemas.android.com/tools"
 5    package="com.unity3d.player"
 6    android:versionCode="1"
-7    android:versionName="1.0.1" >
+7    android:versionName="1.0.2" >
 8
 9    <uses-sdk
 10        android:minSdkVersion="29"

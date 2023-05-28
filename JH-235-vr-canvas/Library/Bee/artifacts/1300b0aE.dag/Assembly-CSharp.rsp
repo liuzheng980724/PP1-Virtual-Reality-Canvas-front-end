@@ -530,6 +530,7 @@
 "Assets/Scripts/loadSomething.cs"
 "Assets/Scripts/PicoAppControlService.cs"
 "Assets/Scripts/ScenesManager.cs"
+"Assets/Scripts/ShowAssignment.cs"
 "Assets/Scripts/Utilities/DebugDrawPerson.cs"
 "Assets/Scripts/Utilities/EditorOnScreenLog.cs"
 "Assets/ThirdParty/Software/LeanTween/Examples/Archived/OldGUIExamplesCS.cs"

@@ -10,8 +10,18 @@ public class JumpToDashboard : MonoBehaviour
         SceneManager.LoadScene("Dashboard");
     }
 
+    public void gotoLandPage()
+    {
+        SceneManager.LoadScene("MainPage");
+    }
+
     public void gotoFolders()
     {
         SceneManager.LoadScene("folderslist");
+    }
+
+    public void gotoAssignment()
+    {
+        SceneManager.LoadScene("Assignment");
     }
 }
